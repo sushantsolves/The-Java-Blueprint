@@ -43,10 +43,17 @@ main -> it is the name of the method and also the JVM search for this method.
 NOTE:
 -> Before diving into the actual java, just want to use these codes as they are help to keep the .class files in a separate folder from main. and give a clean code str.
    Run these commands in the terminal.
+    Syntax: javac -d <location for bytecode file> <location of java file>
+            java -cp <location of bytecode file> <filename> 
+
         javac -d bin src/01_Basics/Intro.java (file location from your terminal to the file.)
         java -cp bin Intro  (tell the location and filename of the bytecode in bin to JVM, searching for where the file which I have to execute.)
 
 -d bin → destination for .class files
 -cp bin → tells Java where to look for the compiled class
+
+
+
+NOTE: For shortcut and Unformal use: To run program just type "java <filename or dest with extension .java>"
 
  */
