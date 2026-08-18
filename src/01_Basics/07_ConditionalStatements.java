@@ -112,6 +112,46 @@ public class ConditionalStatements {
         }
 
 
+            // =============================================
+            // New version of Switch 
+            // =============================================
+
+            switch (day) {
+                case 1 -> System.out.println("Monday");
+
+                case 2 -> System.out.println("Tuesday");
+
+                case 3 -> System.out.println("Wednesday");
+
+                case 4 -> System.out.println("Thursday");
+
+                case 5 -> System.out.println("Friday");
+
+                default -> System.out.println("Invalid day");
+            }
+
+
+            // =============================================
+            // Switch as an Expression
+            // =============================================
+            int day = 4;
+            String today = '';
+
+            switch (day) {
+                case (1) -> today = "Monday";
+                case (2) -> today = "Tuesday";
+                case (3) -> today = "Wednesday";
+                case (4) -> today = "Thursday";
+                case (5) -> today = "Friday";
+                case (6) -> today = "Saturday";
+                case (7) -> today = "Sunday";
+                default -> today = "Enter a valid number"
+            }
+            System.out.println(today)
+
+        
+
+
         // ============================================================
         // 7. switch with String
         // ============================================================
