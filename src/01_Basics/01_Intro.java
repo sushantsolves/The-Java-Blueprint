@@ -1,7 +1,7 @@
 /*
-HOW JAVA WORKS ?
-    -> To compile the code run "javac <filename>"
-    -> And then the the "java <filename>"
+!HOW JAVA WORKS ?
+    -> To compile the code run "javac <filename or address>"
+    -> And then the the "java <main class name or address>"
 */
 
 /*
@@ -10,13 +10,14 @@ NOTE: In starting you can use "jshell" for some line of codes in terminal or cmd
 */
 
 
+/*
+!NOTE: if the main class is in public like "public class Intro" then the class name should be same as the filename.
+!      and if the class is in private like "class Intro" then the file and class name could differ.
+*/
 
-//as discussed, it is a Object oriented lang, so all the things is in a class and the class name should be the file name.
 
 
-
-
-class 01_Intro{
+class Intro{
     public static void main(String a[])
     {
         System.out.println("Hello World, From Java...");
