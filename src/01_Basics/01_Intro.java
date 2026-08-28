@@ -11,8 +11,8 @@ NOTE: In starting you can use "jshell" for some line of codes in terminal or cmd
 
 
 /*
-!NOTE: if the main class is in public like "public class Intro" then the class name should be same as the filename.
-!      and if the class is in private like "class Intro" then the file and class name could differ.
+*NOTE: if the main class is in public like "public class Intro" then the class name should be same as the filename.
+*      and if the class is in private like "class Intro" then the file and class name could differ.
 */
 
 
@@ -26,7 +26,7 @@ class Intro{
 }
 
 /*
-MEANING OF THE CODE
+*MEANING OF THE CODE
 
 -> public static void main(String args[])
 
@@ -41,7 +41,7 @@ main -> it is the name of the method and also the JVM search for this method.
 
 
 /*
-NOTE:
+*NOTE: HOW TO RUN THE CODE
 -> Before diving into the actual java, just want to use these codes as they are help to keep the .class files in a separate folder from main. and give a clean code str.
    Run these commands in the terminal.
     Syntax: javac -d <location for bytecode file> <location of java file>
