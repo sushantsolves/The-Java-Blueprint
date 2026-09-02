@@ -5,7 +5,7 @@ class DataTypes{
         byte a = 10;            //8 bits(1 byte) -> range from -128 to 127
         short b = 10000;        //16 bits(2 byte) -> range from -32,768 to 32,767
         int c = 45;             //32 bits(4 byte) -> range from -2,147,483,648 to 2,147,483,647
-        long d = 50;            //64 bits(8 bytes) -> range from -2⁶³ to 2⁶³−1 
+        long d = 50L;            //64 bits(8 bytes) -> range from -2⁶³ to 2⁶³−1 
 
         float e = 3.48f;          //32 bits(4 bytes) -> ~±3.4 × 10³⁸ 
         double f = 3.1427745;    //64 bits(8 bytes) -> ±1.7 × 10³⁰⁸ 
@@ -37,6 +37,13 @@ class DataTypes{
         System.out.println(f);
         System.out.println(g);
         System.out.println(h);
+
+
+
+        //!Final
+        final int num = 10;
+        //Now bcz of the 'final' the int value can't be reassigned.
+        num = 20;   //error
     }
 }
 
