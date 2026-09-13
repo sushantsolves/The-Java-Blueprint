@@ -1,3 +1,5 @@
+// Different types of star patterns
+
 class Pattern{
     public static void main(String arr[]){
         /*
