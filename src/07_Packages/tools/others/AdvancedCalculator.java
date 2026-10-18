@@ -1,4 +1,4 @@
-package tools.other;
+package tools.others;
 
 public class AdvancedCalculator {
 

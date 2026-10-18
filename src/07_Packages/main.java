@@ -1,5 +1,5 @@
 import tools.Calculator;
-import tools.other.AdvancedCalculator;
+import tools.others.AdvancedCalculator;
 
 public class Main {
 
