@@ -31,7 +31,7 @@ NOTE: A abstract class can have both normal methods only, or all abstract or mix
 */
 
 
-public class C17_AbstractKeyword{
+public class C06_AbstractKeyword{
     public static void main(String args[]){
 
     }

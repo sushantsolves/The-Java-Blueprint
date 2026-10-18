@@ -26,7 +26,7 @@ class C extends B{
     }
 }
 
-class DynamicMethodDispatch{
+class C01_DynamicMethodDispatch{
     public static void main(String arg[]){
         A obj1 = new A();
         obj1.show();        //Show A

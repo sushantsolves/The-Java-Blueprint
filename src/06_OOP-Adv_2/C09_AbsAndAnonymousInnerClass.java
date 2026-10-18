@@ -28,7 +28,7 @@ class AbsAndAnynmsInrClass{
             public void config(){
                 //we can also define more than one abstract methods here.
             }
-        }
+        };
         /* Very Imp Note: here don't think we are creating the obj of a abstract class, we are creating the object of this anonymous class, not abstract class. */
         obj1.show();
     }

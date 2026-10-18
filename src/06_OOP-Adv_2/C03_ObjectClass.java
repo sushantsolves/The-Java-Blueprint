@@ -21,7 +21,7 @@ class Laptop{
 }
 
 
-public class C14_ObjectClass{
+public class C03_ObjectClass{
     public static void main(String args[]){
         Laptop obj = new Laptop();
         obj.model = "Lenovo";

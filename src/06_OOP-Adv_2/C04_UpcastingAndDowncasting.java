@@ -18,15 +18,16 @@ class B extends A{
 }
 
 
-public class C15_UpcastingAndDowncasting{
+public class C04_UpcastingAndDowncasting{
     public static void main(String args[]){
 
         A obj1 = new A();
-        obj1.show();        //In A show
+        obj1.show1();        //In A show
 
 
         A obj2 = new B();           /*reference of A, obj of B */
-        obj2.show();
+        //obj2.show2();       -->gives error
+        obj2.show1();
 
 
         System.out.println("UpCasting ---->");

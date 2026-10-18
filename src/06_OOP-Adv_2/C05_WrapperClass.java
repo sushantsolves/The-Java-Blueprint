@@ -10,18 +10,18 @@
 */
 
 
-public class C16_WrapperClass{
+public class C05_WrapperClass{
     public static void main(String args[]){
         int num = 7;        //num -> primitive variable
         
-        /*
+        
         Integer num1 = new Integer(8);     //num1 -> reference variable
 
         System.out.println(num1);
         // “Your code uses something that Java has marked as deprecated.”
         // Deprecated = an old API that still works, but Java recommends that you stop using it because there is a newer/better alternative.
         //      --> the scene here, this method of assigning value has got old, it can still run but this is not a correct way, or java can stop it anytime.
-        */
+        
         //Then what to do to assign values ?
         Integer num2 = 9;   //simple as that
         System.out.println(num2);

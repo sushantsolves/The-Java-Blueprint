@@ -16,7 +16,7 @@ class B extends A{
 }
 
 
-public class C19_AnonymousInnerClass{
+public class C08_AnonymousInnerClass{
     public static void main(String args[]){
         A obj1 = new B();
         obj1.show();        //this will simply print "In a show", but what if we want to change the work of this method? -> override with extending with another class, right ?

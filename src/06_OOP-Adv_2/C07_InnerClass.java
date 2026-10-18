@@ -10,15 +10,15 @@ class A{
         }
     }
 
-    // static class C{
-    //     public void config(){
-    //         System.out.println("Inside A > C > config() method");
-    //     }
-    // }
+    static class C{
+        public void config(){
+            System.out.println("Inside A > C > config() method");
+        }
+    }
 }
 
 
-public class C18_InnerClass{
+public class C07_InnerClass{
     public static void main(String arg[]){
         A obj = new A();
         obj.show();

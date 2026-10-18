@@ -19,14 +19,14 @@ class Calc
 class AdvCalc extends Calc
 {
     // And I want any of my method to not to be overridden then we can use final as wer use in above class method.
-    public void show(){
-        System.out.println("From AdvCalc Show");
-    }
+    // public void show(){               --> gives a error so bcz the method is of final type.
+    //     System.out.println("From AdvCalc Show");
+    // }
 
 }
 
 
-public class C13_FinalKeyword{
+public class C0_FinalKeyword{
     public static void main(String arg[]){
     /*FINAL VARIABLE
 
