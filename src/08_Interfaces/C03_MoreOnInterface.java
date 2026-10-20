@@ -59,6 +59,6 @@ public class C03_MoreOnInterface{
 
         A obj1 = new c1();       //So here we can create a obj of A, but can't instantiate it. and we can use the methods of A only.
         obj1.show();
-        obj1.run();       //error: cannot find symbol
+        //obj1.run();       //error: cannot find symbol
     }
 }
